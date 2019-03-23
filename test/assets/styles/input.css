@@ -1,0 +1,54 @@
+.input label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.input__field,
+.input__btn {
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 4px;
+	height: 26px;
+	padding: 5px;
+	color: white;
+}
+
+.input__field {
+	margin-right: 10px;
+	width: 85%;
+}
+
+.input__btn {
+	text-align: center;
+	line-height: 14px;
+	width: calc(15% - 10px);
+	cursor: pointer;
+}
+
+.input__field:hover,
+.input__field:focus,
+.input__btn:hover,
+.input__btn:focus {
+	outline: none;
+	border-color: lightgreen;
+	color: lightgreen;
+}
+
+.input__container {
+	margin-bottom: 15px;
+
+	display: flex;
+	justify-content: flex-start;
+}
+
+.input__error {
+	overflow: hidden;
+	height: 0;
+	color: red;
+	transition: .3s;
+}
+
+.input.-error .input__error {
+	height: 26px;
+}

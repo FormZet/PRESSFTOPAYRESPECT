@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 1024px;			
+    margin: 0 auto;
+ }
+
+ .question{
+ 	text-align: center;
+ }
+ .asked{
+	color: red;
+	font-size: 40px;
+	margin-top: 20px;
+}
