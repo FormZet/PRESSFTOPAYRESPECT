@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 1024px;			
+    margin: 0 auto;
+ }
+
+ .questionTest{
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: space-around;
+ 	margin-top: 200px;
+ 	
+ }
+
+
+.quest{
+	color: red;
+	font-size: 30px;
+	margin-bottom: 200px;
+
+}
+
+ .asked{
+	color: red;
+	font-size: 40px;
+	margin-top: 20px;
+}
+.flexim{
+	
+}
